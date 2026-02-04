@@ -1,0 +1,61 @@
+* {
+    font-family: "Cherry Bomb One", system-ui;
+}
+
+.cherry-bomb-one-regular {
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    text-align: center;
+    background-color: white
+}
+
+section {
+    border-color: black;
+    border-style: solid;
+}
+
+.container {
+    background-color: #F7F0FF;
+    margin: 20px 80px 20px 80px;
+}
+
+.container img {
+    margin: 0 auto;
+    width: 31%;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+button {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+button a {
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+}
+
+button:hover {
+    background-color: #D3B8FF;
+}
+
+.films {
+    background-color: #F7F0FF;
+    margin: 20px 80px 20px 80px;
+}
+
+.films img {
+    width: 20%;
+    margin: 10px;
+}
