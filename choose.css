@@ -13,39 +13,40 @@ body {
     background-color: white
 }
 
-section {
-    border-color: black;
-    border-style: solid;
-}
-
 .container {
     background-color: #F7F0FF;
     margin: 20px 80px 20px 80px;
 }
 
-.container img {
-    margin: 0 auto;
-    width: 31%;
-    margin-bottom: 3rem;
+.films {
+    background-color: #F7F0FF;
+    margin: 20px 80px 20px 80px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 h1 {
+    flex: none;
+    text-align: center;
     padding-top: 50px;
     padding-bottom: 20px;
 }
 
-button {
-    background-color: white;
-    border-radius: 10px;
-    margin-bottom: 50px;
+.sec {
+    justify-content: space-evenly;
 }
 
-button a {
+.sec a {
     text-decoration: none;
-    font-size: 2em;
     color: black;
+    justify-content: space-evenly;
 }
 
-button:hover {
-    background-color: #D3B8FF;
+.sec img {
+    width: 20%;
+    margin: 10px;
+}
+
+.sec img:hover {
+    transform: scale(1.1);
 }
