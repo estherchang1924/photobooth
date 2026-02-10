@@ -49,3 +49,25 @@ button a {
 button:hover {
     background-color: #D3B8FF;
 }
+
+header{
+    margin-top: 20px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo img {
+    height: 70px;
+}
+
+.logo img:hover {
+    transform: scale(1.1) rotate(10deg);
+}
