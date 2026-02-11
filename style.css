@@ -23,15 +23,10 @@ section {
     margin: 20px 80px 20px 80px;
 }
 
-.container img {
+#photobooth {
     margin: 0 auto;
     width: 31%;
     margin-bottom: 3rem;
-}
-
-h1 {
-    padding-top: 50px;
-    padding-bottom: 20px;
 }
 
 button {
@@ -50,24 +45,28 @@ button:hover {
     background-color: #D3B8FF;
 }
 
-header{
-    margin-top: 20px; 
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 1rem 9%;
-    filter: drop-shadow(10px);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
+.logo img:hover {
+    transform: scale(1.1) rotate(10deg);
+}
+
+.heading {
+    position: relative;
 }
 
 .logo img {
+    position: absolute;
     height: 70px;
+    left: 40px;
+    top: 20px;
 }
 
 .logo img:hover {
     transform: scale(1.1) rotate(10deg);
+}
+
+h1 {
+    flex: none;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
