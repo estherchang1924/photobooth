@@ -10,7 +10,8 @@
 
 body {
     text-align: center;
-    background-color: white
+    background-color: white;
+    padding-bottom: 3rem;
 }
 
 .container {
@@ -18,35 +19,71 @@ body {
     margin: 20px 80px 20px 80px;
 }
 
-.films {
-    background-color: #F7F0FF;
-    margin: 20px 80px 20px 80px;
-    display: flex;
-    flex-wrap: wrap;
+.heading {
+    position: relative;
+}
+
+.logo img {
+    position: absolute;
+    height: 70px;
+    left: 40px;
+    top: 20px;
+}
+
+.logo img:hover {
+    transform: scale(1.1) rotate(10deg);
 }
 
 h1 {
     flex: none;
     text-align: center;
+    font-size: xx-large;
     padding-top: 50px;
     padding-bottom: 20px;
 }
 
-.sec {
-    justify-content: space-evenly;
+.films {
+    background-color: #F7F0FF;
+    margin: 20px 80px 20px 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;;
 }
 
-.sec a {
-    text-decoration: none;
-    color: black;
-    justify-content: space-evenly;
+.sec {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1em;
 }
 
 .sec img {
-    width: 20%;
+    width: 45%;
     margin: 10px;
+}
+
+p a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    margin-top: -30px;
 }
 
 .sec img:hover {
     transform: scale(1.1);
-}
+} 
+
+/*header{
+    /*margin-top: 20px; 
+    /*position: fixed;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+} */
