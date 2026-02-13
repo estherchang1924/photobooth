@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photobooth</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="camera.css">
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    <script src="camera.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <a href="index.html" class="logo"><img src="assets/logo.png" alt="Photobooth Logo"></a>
+            <h1>Say Cheese!</h1>
+            <div class=timer>
+            <p>5</p>
+        </div>
+        <div class="canvas">
+            <div class="video-container">
+                <video id="video" autoplay></video>
+            </div>
+            <div id="photos"></div>
+        </div>
+        <button id="takepic">Capture</button>
+    </div>
+</body>
+</html>

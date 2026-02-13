@@ -1,0 +1,129 @@
+* {
+    font-family: "Cherry Bomb One", system-ui;
+}
+
+.cherry-bomb-one-regular {
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    text-align: center;
+    background-color: white;
+
+}
+
+.container {
+    background-color: #F7F0FF;
+    margin: 20px 80px 20px 80px;
+}
+
+h1 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+button {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 2em;
+    text-decoration: none;
+    font-size: 1.25em;
+    margin-top: 2em;
+    color: black;
+}
+
+button:hover {
+    background-color: #D3B8FF;
+}
+
+.timer p {
+    display: none;
+    font-size: 3rem;
+    position: absolute;
+    right: 250px;
+    top: -10px;
+}
+
+.heading {
+    position: relative;
+}
+
+.logo img {
+    position: absolute;
+    height: 70px;
+    left: 40px;
+    top: 20px;
+}
+
+.logo img:hover {
+    transform: scale(1.1) rotate(10deg);
+}
+
+/*.canvas {
+    display: flex;
+    flex-direction: row;
+}
+
+.video-container {
+    justify-content: center;
+}
+
+#photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 2em;
+}
+
+#photos img {
+    width: 5em;
+    height: auto;
+} */
+
+.canvas {
+    display: flex;
+    gap: 20px; /* space between video and photos */
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#video {
+    display: block;
+    width: 640px;
+    height: 425.6px;
+    object-fit: cover;   
+    border: 2px solid black;
+    margin: 0 auto 20px auto;
+    transform: scaleX(-1);
+    flex-shrink: 0;
+}
+
+.video-container {
+    width: 640px; /* same as your video width */
+    height: 425.6px;
+}
+
+/*#photos {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; /* spacing between thumbnails 
+} */
+
+#photos {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    left: 900px;
+}
+
+
+#photos img {
+    width: 120px; 
+    height: auto;
+    border: 2px solid black;
+    object-fit: cover;
+}
