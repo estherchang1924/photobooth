@@ -1,0 +1,1 @@
+function downloadImage (imgPath, filename) {

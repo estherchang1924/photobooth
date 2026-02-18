@@ -45,10 +45,6 @@ button:hover {
     background-color: #D3B8FF;
 }
 
-.logo img:hover {
-    transform: scale(1.1) rotate(10deg);
-}
-
 .heading {
     position: relative;
 }
